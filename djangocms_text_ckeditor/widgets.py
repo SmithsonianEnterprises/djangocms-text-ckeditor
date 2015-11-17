@@ -6,7 +6,6 @@ from django.template.loader import render_to_string
 from django.utils.safestring import mark_safe
 from django.utils.translation.trans_real import get_language
 from djangocms_text_ckeditor.utils import static_url
-from cms.utils import cms_static_url
 from django.utils import simplejson
 
 class TextEditorWidget(Textarea):
